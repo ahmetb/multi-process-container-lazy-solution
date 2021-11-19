@@ -4,11 +4,11 @@ Read the blog post for more details: http://ahmet.im/blog/cloud-run-multiple-pro
 
 Build:
 
-    docker build -t foo .
+    docker build -t multi-process-container-lazy-solution .
 
 Run:
 
-    docker run --port 5000:8080 --rm foo
+    docker run -p 5000:8080 --rm multi-process-container-lazy-solution
 
 Visit:
 
